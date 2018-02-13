@@ -4,23 +4,23 @@ PROJECT_NAME="VIcons"
 
 # Display Repo:
 echo -e "Repo Slug:"
-echo -e "\tExpected:\tValkryst/${PROJECT_NAME}"
-echo -e "\tActual:\t$TRAVIS_REPO_SLUG\n"
+echo -e "\tExpected: Valkryst/${PROJECT_NAME}"
+echo -e "\tActual: $TRAVIS_REPO_SLUG\n"
 
 # Display JDK Version:
 echo -e "JDK Version:"
-echo -e "\tExpected:\toraclejdk8"
-echo -e "\tActual:\t$TRAVIS_JDK_VERSION\n"
+echo -e "\tExpected: oraclejdk8"
+echo -e "\tActual: $TRAVIS_JDK_VERSION\n"
 
 # Display 'Is Pull Request':
 echo -e "Is Pull Request:"
-echo -e "\tExpected:\tfalse"
-echo -e "\tActual:\t$TRAVIS_PULL_REQUEST\n"
+echo -e "\tExpected: false"
+echo -e "\tActual: $TRAVIS_PULL_REQUEST\n"
 
 # Display Branch:
 echo -e "Branch:"
-echo -e "\tExpected:\tmaster"
-echo -e "\tActual:\t$TRAVIS_BRANCH\n"
+echo -e "\tExpected: master"
+echo -e "\tActual: $TRAVIS_BRANCH\n"
 
 if [ "$TRAVIS_REPO_SLUG" == "Valkryst/"${PROJECT_NAME} ] &&
    [ "$TRAVIS_JDK_VERSION" == "oraclejdk8" ] &&
