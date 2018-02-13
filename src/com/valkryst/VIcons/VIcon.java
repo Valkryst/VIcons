@@ -41,7 +41,7 @@ public class VIcon {
      *          If an error occurs when reading the icon file.
      */
     public static BufferedImage loadAsBufferedImage(final @NonNull VIconType iconType) throws IOException {
-        final InputStream is = VIcon.class.getResourceAsStream(iconType.getFilePath());
+        final InputStream is = VIcon.class.getResourceAsStream("/" + iconType.getFilePath());
         final BufferedImage image = ImageIO.read(is);
         is.close();
         return image;
