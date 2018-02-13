@@ -1,7 +1,7 @@
 package com.valkryst.VIcons;
 
-import com.sun.istack.internal.NotNull;
 import lombok.Getter;
+import lombok.NonNull;
 
 public enum VIconType {
     BUTTON_ACCEPT("icons/button/Accept.png"),
@@ -26,7 +26,7 @@ public enum VIconType {
      * @throws NullPointerException
      *          If the filePath is null.
      */
-     VIconType(final @NotNull String filePath) {
+     VIconType(final @NonNull String filePath) {
         if (filePath.isEmpty()) {
             throw new IllegalStateException("The filePath of the " + this.name() + " VIconType enum cannot be empty.");
         }
