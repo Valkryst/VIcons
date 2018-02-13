@@ -6,7 +6,7 @@ The Maven dependency is hosted off of JitPack, so you will need to add JitPack a
 
 ### Maven
 
-JitPack ([Example](https://github.com/Valkryst/VIcons/blob/master/pom.xml)):
+JitPack ([Example](https://github.com/Valkryst/VMVC/blob/master/pom.xml)):
 
     <repositories>
         <repository>
