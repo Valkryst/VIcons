@@ -11,7 +11,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="1.8">
-      <module name="VIcons" target="1.8" />
+      <module name="VIcons" target="11" />
     </bytecodeTargetLevel>
   </component>
 </project>
