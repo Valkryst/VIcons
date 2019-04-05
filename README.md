@@ -1,4 +1,4 @@
-![](https://travis-ci.org/Valkryst/VRadio.svg?branch=master) [![codecov](https://codecov.io/gh/Valkryst/VIcons/branch/master/graph/badge.svg)](https://codecov.io/gh/Valkryst/VIcons) [![Release](https://jitpack.io/v/Valkryst/VIcons.svg)](https://jitpack.io/#Valkryst/VIcons)
+[![Release](https://jitpack.io/v/Valkryst/VIcons.svg)](https://jitpack.io/#Valkryst/VIcons)
 
 ## Jar Files & Maven
 
