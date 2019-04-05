@@ -12,7 +12,9 @@ public enum VIconType {
     FILE_NEW("icons/file/New.png"),
     FILE_PROCESS("icons/file/Process.png"),
 
-    SETTINGS("icons/misc/Settings.png");
+    SETTINGS("icons/misc/Settings.png"),
+    UNDO("icons/misc/Undo.png"),
+    REDO("icons/misc/Redo.png");
 
     /** The path to the icon. */
     @Getter private final String filePath;

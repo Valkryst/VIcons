@@ -10,9 +10,18 @@ Icons made by [Hadrien](https://www.flaticon.com/authors/hadrien) from www.flati
 * Accept.png
 * Decline.png
 
+Icons made by [Yannick](https://www.flaticon.com/authors/yannick) from www.flaticon.com:
+
+* Undo.png
+
 Icons edited by Valkryst using Sarafraz Shoukat's work:
 
 * Delete.png
 * Edit.png
 * New.png
 * Process.png
+
+Icons edited by Valkryst using Sarafraz Yannick's work:
+
+* undo.png
+* Redo.png
